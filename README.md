@@ -7,7 +7,7 @@ AngularJS1 Module Demo
 
 ```
 npm install
-open index.html
+npm run demo
 ```
 
 ![demo](./images/demo.jpg)
