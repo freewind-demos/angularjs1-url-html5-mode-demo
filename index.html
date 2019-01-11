@@ -1,5 +1,8 @@
 <html>
 <head>
+    <script type="text/javascript">
+      document.write('<base href="' + window.location.pathname + '" />');
+    </script>
     <script src="./node_modules/angular/angular.js"></script>
     <script src="./node_modules/angular-route/angular-route.js"></script>
     <script src="./app.js"></script>
@@ -8,8 +11,8 @@
 <div>
     <div>
         Choose:
-        <a href="#!/page-a">Page A</a> |
-        <a href="#!/page-b">Page B</a>
+        <a href="/page-a">Page A</a> |
+        <a href="/page-b">Page B</a>
     </div>
 
     <div ng-view></div>

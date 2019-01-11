@@ -1,7 +1,7 @@
-AngularJS1 ngRoute ngView Demo
+AngularJS1 Url Html5 Mode Demo
 ==============================
 
-Use `$routeProvider` and `ngView` to load different inner pages.
+Use `$locationProvider` to enable `html5Mode`, then we can use `/some-path` instead of `#!/some-path` in `<a>`.
 
 ```
 npm install
