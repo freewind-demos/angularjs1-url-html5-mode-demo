@@ -5,5 +5,5 @@ Use `$locationProvider` to enable `html5Mode`, then we can use `/some-path` inst
 
 ```
 npm install
-npm run demo
+npm start
 ```
