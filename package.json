@@ -3,7 +3,7 @@
     "start": "http-server . -c-1 -o"
   },
   "dependencies": {
-    "angular": "^1.7.3",
+    "angular": "1.7.3",
     "angular-route": "1.7.5"
   },
   "devDependencies": {
